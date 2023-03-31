@@ -1,0 +1,269 @@
+html{
+    font-size: 10px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    /* transition: all 5s ease; */
+}
+.logo{
+    width: 4rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    /* padding-bottom: rem; */
+}
+nav{
+    display: flex;
+    height: 6rem;
+    /* width: 1vw; */
+    justify-content: space-between;
+    background-color: #212529;
+    color: white;
+    border-bottom-left-radius: 3.3rem;
+    border-bottom-right-radius: 3.3rem;
+    position: sticky;
+    top: 0;
+}
+ul{
+    /* margin: auto 5rem; */
+    display: flex;
+    right: 0;
+    /* color:#ffd43b; */
+    margin-right: 4rem;
+}
+li{
+    padding: 5rem;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 2rem;
+    transition: all 0.5 ease;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #ffd43b;
+}
+li:hover{
+box-sizing: border-box;    color: #ffd43b;
+    border-bottom: 0.25rem solid #ffd43b;
+}
+.main{
+    display: flex;
+    margin: 2rem;
+    
+
+}
+
+.design{
+    display: block;
+    width: 40vw;
+    margin: 2.5rem;
+}
+#d{
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-right: 0;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #343a40;
+}
+#designer{
+    display:grid;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    margin-left: 0%;
+    font-size: 1.2rem;
+    color: #495057;
+    font-weight: 100;
+}
+.art{
+    height: 20vw;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.main .dp{
+    width: 30vw;
+    /* height: 60vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    padding: auto;
+}
+.code{
+    margin-left: 3rem;
+    display: block;
+}
+#c{
+  padding-left: 5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  letter-spacing: 5px;  
+}
+#coder{
+    font-size: 1rem;
+    margin-top: 1rem;
+    /* margin-left: 5rem; */
+    font-size: 1.2rem;
+    color: #495057;
+    margin-left: auto;
+    font-weight: 500;
+}
+.code1{
+    margin-left: 15rem;
+    height: 15vw;
+
+}
+#detail{
+    text-align: center;
+}
+h2{
+    font-size: 4rem;
+    color:#212529;
+}
+p{
+    font-size: 1.5rem;
+    color: #495057;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+picture{
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-flex;
+    color: #adb5bd;
+    margin: 2rem;
+    transition: all 0.5s ease;
+}
+#linkedin:hover{
+    color: #4c6ef5;
+}
+#github:hover{
+    color: #212529;
+}
+#insta:hover{
+    color: #e64980;
+}
+#twitter:hover{
+    color: #4c6ef5;
+}
+h1{
+    text-align: center;
+    margin-top: 20rem;
+    padding: 5rem;
+    font-size: 5rem;
+    color: #212529;
+}
+#project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+#pro{
+    padding: 5%;
+    opacity: 30%;
+    transition: all 0.5s ease;
+             
+}
+#pro:hover{
+    border: none;
+    opacity: 100%;   
+}
+h5{
+    margin-top: 20rem;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    display: flex;
+    color: #212529;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    /* padding-bottom: 12rem; */
+}
+h6{
+    display: flex;
+    justify-content: center;
+    /* font-style: italic; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    color: #343a40;
+
+}
+.resume{
+      margin-top: 30vh;
+      
+      margin-left: 24vw;
+}
+#footer{
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+@media (max-width:900px){
+ html{
+    font-size: 7px;
+ }
+ nav{
+    position: sticky;
+    top: 0;
+ }
+    .main{
+    display: block;
+ }   
+ .project{
+    margin: 20%;
+    /* display: flex; */
+    /* justify-content: center; */
+ }
+ 
+ #pro{
+    margin: 0 0.01vw;
+    /* width: 6rem; */
+ }
+ .code1{
+    margin-left: 70%;
+    display: flex;
+    justify-content: flex-end;
+    width: 15vw;
+ }
+ #c{
+    text-align: right;
+    margin-right: 5vw;
+ }
+ #coder{
+    text-align: left;
+    margin-left: 50vw;
+ }
+ ul{
+    display: none;
+ }
+ .logo{
+    margin: 0 45vw;
+ }
+ .resume{
+    margin: 10vw;
+    width: 80vw;
+ }
+}
